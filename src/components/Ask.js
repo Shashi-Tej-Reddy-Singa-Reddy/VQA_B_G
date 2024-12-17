@@ -266,7 +266,7 @@ function Ask() {
 
         try {
             // const response = await fetch('api/uploadImage', {  // Adjust URL for Flask
-            const response = await fetch('https://test-deploy-v5a1.onrender.com/api/uploadImage', {  // Adjust URL for Flask
+            const response = await fetch('https://test-deploy-bsrm.onrender.com/api/uploadImage', {  // Adjust URL for Flask
             // const response = await fetch(`${process.env.REACT_APP_ASK}`, {  // Adjust URL for Flask
                 method: 'POST',
                 body: formData,
