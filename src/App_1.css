@@ -1,0 +1,15 @@
+/* App.css */
+body {
+  margin: 0;
+  padding: 0;
+  background-image: url('./images/background3.svg');
+  /* background-image: url('./images/greenleaves.jpg'); */
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+main {
+  min-height: 100vh;
+  /* Ensures the main content takes up at least the full viewport height */
+}

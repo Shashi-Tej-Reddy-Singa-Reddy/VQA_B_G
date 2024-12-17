@@ -1,0 +1,45 @@
+/* Home.css */
+.home-title {
+    font-size: 30px;
+    font-weight: bold;
+    color: #333; /* Adjust color as needed */
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-end;
+    height: 50vh;
+    right: 10;
+    position: relative; /* Make it relative to position the button absolutely */
+}
+
+.home-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px; /* Add some padding if necessary */
+    width: 100%;
+    max-width: 1200px; /* Adjust the max-width as needed */
+    margin: 0 auto; /* Center the container horizontally */
+    position: relative; /* Make this container relative to position the button */
+}
+
+.home-button {
+    padding: 10px 22px;
+    font-size: 18px;
+    color: #fff;
+    background-color: rgb(132, 169, 161);
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+    transition: background-color 0.6s ease;
+    position: absolute; /* Position absolutely to move it to the right */
+    right: 0; /* Align to the right of the container */
+    bottom: 0; /* Align to the bottom of the container */
+    height: 50px; /* Set height to match the text container */
+    display: flex;
+    align-items: center; /* Center text vertically in the button */
+    justify-content: center; /* Center text horizontally in the button */
+}
+
+.home-button:hover {
+    background-color: #b80c0c; /* Darker shade for hover effect */
+}

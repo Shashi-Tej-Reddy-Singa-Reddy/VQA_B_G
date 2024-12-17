@@ -1,0 +1,127 @@
+/* General reset for padding and margin */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  /* Basic layout settings */
+  body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f7fa;
+    color: #333;
+    padding: 20px;
+  }
+  
+  /* Title style */
+  h1 {
+    text-align: center;
+    color: #444;
+    margin-bottom: 20px;
+    font-size: 2rem;
+  }
+  
+  /* Table styles */
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    background-color: white;
+  }
+  
+  /* Table headers */
+  th {
+    background-color: #4CAF50;
+    color: white;
+    padding: 12px 15px;
+    text-align: left;
+    font-size: 1rem;
+    font-weight: bold;
+  }
+  
+  /* Table cells */
+  td {
+    padding: 12px 15px;
+    border: 1px solid #ddd;
+    text-align: left;
+    font-size: 0.9rem;
+  }
+  
+  /* Hover effect on rows */
+  tr:hover {
+    background-color: #f1f1f1;
+  }
+  
+  /* No users message */
+  td[colspan="4"] {
+    font-style: italic;
+    color: #888;
+    padding: 20px 0;
+  }
+  
+  /* Input fields */
+  input[type="text"],
+  input[type="email"],
+  input[type="password"] {
+    width: 100%;
+    padding: 8px 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 0.9rem;
+    margin: 4px 0;
+    box-sizing: border-box;
+  }
+  
+  /* Button styles */
+  button {
+    padding: 8px 16px;
+    margin: 4px;
+    font-size: 0.9rem;
+    cursor: pointer;
+    border: none;
+    border-radius: 4px;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+  }
+  
+  /* Edit button */
+  button:hover {
+    background-color: #2196F3;
+    color: white;
+    transform: scale(1.05);
+  }
+  
+  /* Delete button */
+  button:nth-of-type(2):hover {
+    background-color: #f44336;
+    color: white;
+    transform: scale(1.05);
+  }
+  
+  /* Save button */
+  button:active {
+    background-color: #4CAF50;
+    transform: scale(0.98);
+  }
+  
+  /* Responsive styles */
+  @media (max-width: 768px) {
+    table {
+      font-size: 0.8rem;
+    }
+  
+    th, td {
+      padding: 10px;
+    }
+  
+    input[type="text"],
+    input[type="email"],
+    input[type="password"] {
+      font-size: 0.8rem;
+    }
+  
+    button {
+      padding: 6px 12px;
+      font-size: 0.8rem;
+    }
+  }
+  
